@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="container left"
+  >
+    <form
+      className="form"
+      onSubmit={[Function]}
+    >
+      Search
+      <input
+        onChange={[Function]}
+        type="text"
+        value="redux"
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <div />
+    <div
+      className="interactions"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        More
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button has a valid snapshot 1`] = `
+<button
+  className=""
+  onClick={undefined}
+  type="button"
+>
+  Give Me More
+</button>
+`;
+
+exports[`Search has a valid snapshot 1`] = `
+<form
+  className="form"
+  onSubmit={undefined}
+>
+  Search
+  <input
+    onChange={undefined}
+    type="text"
+    value={undefined}
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+</form>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div>
+  <div
+    className="left list"
+  >
+    <span>
+      <a
+        href={undefined}
+      >
+        1
+      </a>
+    </span>
+    <span>
+      1
+    </span>
+    <span>
+      1
+    </span>
+    <span>
+      2
+    </span>
+    <button
+      className=""
+      onClick={[Function]}
+      type="button"
+    >
+      Dismiss
+    </button>
+  </div>
+  <div
+    className="left list"
+  >
+    <span>
+      <a
+        href={undefined}
+      >
+        2
+      </a>
+    </span>
+    <span>
+      2
+    </span>
+    <span>
+      1
+    </span>
+    <span>
+      2
+    </span>
+    <button
+      className=""
+      onClick={[Function]}
+      type="button"
+    >
+      Dismiss
+    </button>
+  </div>
+</div>
+`;
